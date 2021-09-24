@@ -32,7 +32,7 @@ if(!isset($_SESSION["login"])){
                 <tr>
                     <td><label for="kd_dosen">kode dosen</label></td>
                     <td>:</td>
-                    <td><input type="text" name="kd_dosen" value="<?php echo $data['kd_dosen']; ?>" disabled></td>
+                    <td><input type="text" name="kd_dosen" value="<?php echo $data['kd_dosen']; ?>"></td>
                 </tr>
                 <tr>
                     <td><label for="nm_dosen">nama dosen</label></td>
